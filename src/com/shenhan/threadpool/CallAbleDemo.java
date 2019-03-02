@@ -17,6 +17,6 @@ public class CallAbleDemo {
         System.out.println(submit.get());
         Future<String> submit1 = executorService.submit(new ThreadCallable());
         System.out.println(submit1.get());
-
     }
+    //手动创建线程池效果会更好
 }
